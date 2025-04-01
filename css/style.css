@@ -13,12 +13,17 @@ body {
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-    background: seagreen;
+    background: url('img.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .wrapper {
     width: 420px;
-    background: purple;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     color: #fff;
     border-radius: 10px;
     padding: 30px ;
@@ -32,7 +37,7 @@ body {
 .wrapper .input-box {
     width: 120%;
     height: 50px;
-    margin: 30px;
+    margin: 25px;
 }
 
 .input-box input {
@@ -56,9 +61,9 @@ body {
 
 .input-box .material-symbols-outlined {
     position: absolute;
-    right: 215px;
-    top: 40%;
-    transform: translateY(-21%);
+    right: 45px;
+    top: 32%;
+    transform: translateY(-27%);
     font-size: 20px;
 }
 
@@ -67,7 +72,6 @@ body {
     justify-content: space-between;
     font-size: 14.5px;
     margin: -15px 0 15px;
-
 
 }
 
